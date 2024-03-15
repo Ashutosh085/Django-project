@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center>
+        <h1>This is Ashutosh</h1>
+    </center>
+
+    <ul>
+        {% for u in myuserlist %}
+        <li>{{u.name}}</li>
+        <li>{{u.age}}</li>
+        {% endfor %}
+    </ul>
+
+    <ul>
+        {% for p in myproductslist %}
+        <li><a href="">{{p.name}}</li>
+        <li>{{p.price}}</li>
+        <li>{{p.pic}}</li>
+        {% endfor %}
+    </ul>
+
+    
+
+    
+
+  
+</body>
+</html>
